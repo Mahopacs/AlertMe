@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>zh-Hans</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>我的应用程序</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>菜单项</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>更多应用程序</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="Contact1Name" xml:space="preserve">
+    <value>联系人 1 姓名</value>
+  </data>
+  <data name="Contact2Name" xml:space="preserve">
+    <value>2 的联系人名称</value>
+  </data>
+  <data name="CountdownTime" xml:space="preserve">
+    <value>时间倒计时</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>您的姓名</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>AlertMe 选项</value>
+  </data>
+  <data name="PlayAlarm" xml:space="preserve">
+    <value>发挥臂</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="SentTextCount" xml:space="preserve">
+    <value>已发送的 TextCount</value>
+  </data>
+  <data name="EnableCountdown" xml:space="preserve">
+    <value>启用倒计时</value>
+  </data>
+  <data name="MyLocationIs" xml:space="preserve">
+    <value>我的位置是：</value>
+  </data>
+  <data name="TrialTextSent" xml:space="preserve">
+    <value>审判文本发送：</value>
+  </data>
+  <data name="AddressNotFound" xml:space="preserve">
+    <value>不能确定地址的位置。请稍后再试。</value>
+  </data>
+  <data name="PleasePurchase" xml:space="preserve">
+    <value>.请购买多种无限量供应文本的应用程序。</value>
+  </data>
+  <data name="TextNotSentError" xml:space="preserve">
+    <value>不发送文本。错误 =</value>
+  </data>
+  <data name="TrialMessage" xml:space="preserve">
+    <value>您试用数量允许发送的文本是</value>
+  </data>
+  <data name="InitialTrial1" xml:space="preserve">
+    <value>已发送文本的审判数目已过期 (</value>
+  </data>
+  <data name="InitialTrial2" xml:space="preserve">
+    <value>).延长试用另一种</value>
+  </data>
+  <data name="InitialTrial3" xml:space="preserve">
+    <value>案文请率的应用程序。</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>率</value>
+  </data>
+  <data name="GPSDisabled" xml:space="preserve">
+    <value>请通过设置-&gt;的位置-&gt;启用定位服务选项，启用您定位服务。</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>购买</value>
+  </data>
+<data name="_KeyWord5" xml:space="preserve"><value>现货</value></data><data name="_KeyWord4" xml:space="preserve"><value>区域设置</value></data><data name="_KeyWord3" xml:space="preserve"><value>位置</value></data><data name="_KeyWord2" xml:space="preserve"><value>我在这里</value></data><data name="_KeyWord1" xml:space="preserve"><value>全球定位系统</value></data><data name="_Description" xml:space="preserve"><value>在步骤 1 中的文本作为发送您所在的位置 ！
+
+在市场上，高精度的最简单应用程序。单击一次可以作为文本发送您所在的位置。该文本将该地址，和一个链接到谷歌地图。
+
+立即下载 ！</value></data></root>
